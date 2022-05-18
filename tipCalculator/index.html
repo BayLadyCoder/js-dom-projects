@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <h1>Tip Calculator</h1>
+    <input type="number" placeholder="Bill amount" />
+    <button id="reset-btn">Reset</button>
+    <div style="margin: 20px 0 15px 0">
+      <span>Tip</span>
+      <button class="percent-btn" data-percentage="10">10%</button>
+      <button class="percent-btn" data-percentage="15">15%</button>
+      <button class="percent-btn" data-percentage="18">18%</button>
+      <button class="percent-btn" data-percentage="20">20%</button>
+      <button id="other-btn" data-percentage="other">Other</button>
+    </div>
+
+    <p class="output"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
